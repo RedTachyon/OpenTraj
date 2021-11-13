@@ -1,12 +1,11 @@
 from setuptools import setup
 
- setup(
+setup(
    name='opentraj',
    version='1.0',
    author='Javad Amirian',
    author_email='amiryan.j@gmail.com',
    packages=['opentraj'],
-   scripts=['bin/script1','bin/script2'],
    url='https://github.com/crowdbotp/OpenTraj',
    license='MIT',
    description='Tools for analyzing trajectory datasets',
